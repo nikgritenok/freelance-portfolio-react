@@ -8,37 +8,37 @@ import linkedIn from './../.././img/icons/linkedIn.svg'
 
 const Footer = () => {
 	return (
-		<footer class='footer'>
-			<div class='container'>
-				<div class='footer__wrapper'>
-					<ul class='social'>
-						<li class='social__item'>
+		<footer className='footer'>
+			<div className='container'>
+				<div className='footer__wrapper'>
+					<ul className='social'>
+						<li className='social__item'>
 							<a href='#!'>
-								<img src={vk} />
+								<img src={vk} alt='Link' />
 							</a>
 						</li>
-						<li class='social__item'>
+						<li className='social__item'>
 							<a href='#!'>
 								<img src={instagram} alt='Link' />
 							</a>
 						</li>
-						<li class='social__item'>
+						<li className='social__item'>
 							<a href='#!'>
 								<img src={twitter} alt='Link' />
 							</a>
 						</li>
-						<li class='social__item'>
+						<li className='social__item'>
 							<a href='#!'>
 								<img src={github} alt='Link' />
 							</a>
 						</li>
-						<li class='social__item'>
+						<li className='social__item'>
 							<a href='#!'>
 								<img src={linkedIn} alt='Link' />
 							</a>
 						</li>
 					</ul>
-					<div class='copyright'>
+					<div className='copyright'>
 						<p>© 2022 frontend-dev.com</p>
 					</div>
 				</div>
